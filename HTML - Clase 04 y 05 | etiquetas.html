@@ -1,0 +1,178 @@
+<!--
+    INICIO DEL DOCUMENTO
+    ! -> CONDICIÓN DEL DOCUMENTO.
+    DOCTYPE -> TIPO DE DOCUMENTO.
+    html -> EL DOCUMENTO ES HTML.
+-->
+<!DOCTYPE html>
+
+<!--
+    html -> ETIQUETA DEL DOCUMENTO HTML.
+    lang -> ATRIBUTO DE LA ETIQUETA PARA EL LENGUAJE.
+    "es" -> VALOR DEL ATRIBUTO.
+        * EN -> ENGLISH.
+        * ES -> ESPAÑOL.
+        * FR -> FRANCES, ETC.
+-->
+<html lang="es"></html>
+
+<!-- INICIO DE LA COLECCIÓN DE METADATOS -->
+<head></head>
+
+<!-- MOSTRAR EL TITULO DE LA PAGINA WEB -->
+<title>Christian Puyen</title>
+
+<!--
+    meta -> ETIQUETA DE METADATO.
+    charset -> ATRIBUTO DE DECODIFICACION.
+    "utf-8" -> VALOR DE ATRIBUTO PARA ESPAÑOL.
+-->
+<meta charset="utf-8">
+
+<!--
+    meta -> ETIQUETA DE METADATO.
+    name -> ATRIBUTO QUE DA UN NOMBRE AL METADATO.
+    "description" -> VALOR DE LA DESCRIPCION DE LAS WEB.
+    content -> ATRIBUTO QUE INDICA EL CONTENIDO DE LA WEB.
+-->
+<meta name="description" content="DESCRIPCION DE LA EMPRESA O PALABRAS CLAVES">
+
+<!-- COMPATIBILIDAD CON LOS NAVEGADORES -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!--
+    METADATO DE RESOLUCION DEL NAVEGADOR
+    name -> ATRIBUTO DE RENOMBRE DE LA ETIQUETA.
+    "viewport" -> VALOR DE REFERENCIA ANCHO Y ALTO DEL NAVEGADOR
+-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--
+    link -> ETIQUETA DE LLAMADO EXTERNO A UN DOCUMENTO CSS.
+    rel -> ATRIBUTO DE RELACION DEL DOCUMENTO.
+    "stylesheet" -> VALOR QUE INDICA QUE ES UNA HOJA DE ESTILOS.
+    href -> ATRIBUTO DE RUTA DEL DOCUMENTO.
+-->
+<link rel="stylesheet" href="curso.css">
+
+<!--
+    script -> ETIQUETA DE LLAMADO EXTERNO A UN DOCUMENTO JS.
+    type -> ATRIBUTO DE IDENTIFICACIÓN DEL DOCUMENTO.
+    "text/javascript" -> VALOR DEL DOCUMENTO DE REFERENCIA.
+    src -> ATRIBUTO DE RUTA DEL DOCUMENTO.
+-->
+<script type="text/javascript" src="curso.js"></script>
+
+<!-- body -> ETIQUETA QUE MUESTRA EL CONTENIDO AL USUARIO. -->
+<body>Hola Mundo</body>
+
+<!-- CABECERA PRINCIPAL DE LA PAGINA WEB -->
+<header></header>
+
+<!-- MENU DE NAVEGACION -->
+<nav></nav>
+
+<!-- MENU DE NAVEGACION LATERAL -->
+<sidebar></sidebar>
+
+<!-- LISTAS DE ENUMERACIÓN -->
+<ul></ul> <!-- LISTA DESORDENADA -->
+<ol></ol> <!-- LISTA ORDENADA -->
+<li></li> <!-- ENUMERACIÓN DE UNA LISTA -->
+
+<!--
+    a -> ETIQUETA DE REDIRECCIONAMIENTO DE PAGINAS.
+    href -> VALOR DE LA RUTA.
+    target -> ATRIBUTO DE ACCIÓN.
+    "_blank" -> VALOR DE ENLACE DE REDIRECCIONAMIENTO.
+-->
+<a href="etiquetas.html" target="_blank">Etiquetas</a>
+
+<!-- CREA UN CONTENEDOR PRINCIPAL -->
+<main></main>
+
+<!-- CREA SECCIONES -->
+<section></section>
+
+<!-- CREA CAJAS (FLOTANTES O ESTABLES) -->
+<div></div>
+
+<!-- ETIQUETAS DE TITULOS O ENCABEZADOS -->
+<h1></h1> <h2></h2> <h3></h3> <h4></h4> <h5></h5> <h6></h6>
+
+<!-- ETIQUETA PARA TEXTOS O PARRAFOS -->
+<p></p>
+
+<!-- ETIQUETA PARA TEXTO O PARRAFO EN NEGRITA -->
+<b></b>
+
+<!-- ETIQUETA PARA TEXTO O PARRAFO EN ITALICA -->
+<em></em>
+
+<!-- ESTIQUETA PARA TEXTO, PARRAFO E ICONOS SIN LECTURA DEL NAVEGADOR -->
+<span></span>
+
+<!-- ETIQUETA PARA MOSTRAR ARTICULOS(PERIODICO, REVISTAS, ETC.) -->
+<article></article>
+
+<!-- ETIQUETA PARA TEXTO IMPORTANTE -->
+<strong></strong>
+
+<!-- ETIQUETA PARA PUBLICIDADES EXTERNAS -->
+<aside></aside>
+
+<!-- ETIQUETA PARA SALTOS DE LINEA -->
+<br>
+
+<!-- ETIQUETA PARA ICONOS -->
+<i></i>
+
+<!--
+    img -> ETIQUETA PARA IMAGENES.
+    src -> ATRIBUTO DE LA RUTA DE LA IMAGEN.
+    alt -> ATRIBUTO DEL NOMBRE FICTICION DE LA IMAGEN.
+-->
+<img src="ruta.jpg" alt="nombre 01">
+
+<!--
+    video -> ETIQUETA PARA VIDEOS.
+    src -> ATRIBUTO DE LA RUTA DEL VIDEO.
+    autoplay -> REPRODUCE EL VIDEO AL ABRIR EL NAVEGADOR.
+    loop -> REPITE EL VIDEO INFINITAMENTE.
+    muted -> SILENCIA EL VIDEO.
+    controls -> ACTIVA LOS CONTROLES DEL VIDEO PARA EL USUARIO.
+-->
+<video src="ruta.mp4" autoplay loop muted controls></video>
+
+<!-- PIE DE PAGINA -->
+<footer></footer>
+
+<!-- ETIQUETA PARA LOS FORMULARIOS -->
+<form></form> <!-- ETIQUETA PARA FORMULARIOS -->
+    <!-- ETIQUETAS DE LLENADO DE INFORMACIÓN -->
+<input type="text"> <!-- ETIQUETA PARA CAMPO DE TEXTO, NUMEROS O CARACTERES -->
+<input type="number"> <!-- ETIQUETA PARA CAMPO DE NUMEROS -->
+<input type="email"> <!-- ETIQUETA PARA CAMPO DE CORREO ELECTRONICO -->
+<input type="date"> <!-- ETIQUETA PARA CAMPO DE FECHA -->
+<input type="password"> <!-- ETIQUETA PARA CAMPO DE CONTRASEÑA -->
+<input type="radio"> <!-- ETIQUETA PARA SELECCION -->
+<input type="checkbox"> <!-- ETIQUETA PARA SELECCION -->
+<select></select> <!-- ETIQUETA PARA SELECCION -->
+<option value="varon">Hombre</option> <!-- ETIQUETA PARA SELECCIONAR UNA OPCION -->
+<textarea></textarea> <!-- ETIQUETA DE REDACCIÓN -->
+<label for=""></label> <!-- ETIQUETA PARA LA IDENTIFICACION DEL CAMPO -->
+    <!-- ETIQUETAS PARA LOS BOTONES -->
+<button type="button"></button> <!-- BOTON SIMPLE -->
+<button type="reset"></button> <!-- BOTON PARA RESETAR LOS CAMPOS -->
+<button type="submit"></button> <!-- BOTON PARA ENVIAR LA INFORMACION -->
+<input type="submit" value="Enviar"> <!-- BOTON PARA ENVIAR LA INFORMACION -->
+
+<!-- ETIQUETAS PARA LAS TABLAS -->
+<table></table> <!-- ETIQUETA PARA TABLAS -->
+<caption></caption> <!-- ETIQUETA PARA EL TITULO DE LA TABLA -->
+<thead></thead> <!-- ETIQUETA DEL ENCABEZADO -->
+<tbody></tbody> <!-- ETIQUETA DEL CUERPO -->
+<tfoot></tfoot> <!-- ETIQUETA DEL PIE DE PAGINA -->
+<tr></tr> <!-- ETIQUETA PARA CREAR FILAS -->
+<th></th> <!-- ETIQUETA PARA CREAR EL NOMBRE DE LAS COLUMNAS -->
+<td></td> <!-- ETIQUETA PARA LA INFORMACION DE LA TABLA -->
